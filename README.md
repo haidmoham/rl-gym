@@ -14,7 +14,7 @@ Open [reproduce the first baseline](wiki/src/start/first-baseline.md). The propo
 
 ## Read the wiki
 
-- Native GitHub Wiki publication is pending first-page initialization in a signed-in browser. The [Wiki destination](https://github.com/haidmoham/rl-gym/wiki) currently redirects to the repository. The 12-file export and sync command are ready; native publication has not been completed.
+- [Read the native GitHub Wiki](https://github.com/haidmoham/rl-gym/wiki): 10 articles with a shared sidebar and footer, generated from the canonical sources below.
 - [Canonical Markdown articles](wiki/src/index.md).
 - Rebuild the complete local folder tree with Node.js 22 or later. No package installation, network, server, or hosted docs platform is required.
 
