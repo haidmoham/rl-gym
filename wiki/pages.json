@@ -1,0 +1,12 @@
+[
+  { "source": "index.md", "title": "The research gym", "wiki": "Home", "group": "Orientation" },
+  { "source": "start/first-baseline.md", "title": "Reproduce the first baseline", "wiki": "First-baseline", "group": "Start here" },
+  { "source": "start/battle-loop.md", "title": "Read a battle as an RL loop", "wiki": "Battle-loop", "group": "Start here" },
+  { "source": "experiments/locked-evaluation.md", "title": "Freeze a fair evaluation", "wiki": "Locked-evaluation", "group": "Experiment" },
+  { "source": "experiments/uncertainty.md", "title": "How certain is a win rate?", "wiki": "Uncertainty", "group": "Experiment" },
+  { "source": "experiments/opponent-pools.md", "title": "Why opponent pools matter", "wiki": "Opponent-pools", "group": "Experiment" },
+  { "source": "experiments/improve-policy.md", "title": "Improve one trained policy", "wiki": "Improve-policy", "group": "Experiment" },
+  { "source": "resources/watch-play-try.md", "title": "Watch, play, try", "wiki": "Watch-play-try", "group": "Resources" },
+  { "source": "reference/report.md", "title": "Publish a reproducible result", "wiki": "Report", "group": "Reference" },
+  { "source": "reference/local-wiki.md", "title": "Maintain the local wiki", "wiki": "Local-wiki", "group": "Reference" }
+]

@@ -1,0 +1,12 @@
+node_modules/
+.wiki-export/
+.wiki-checkout/
+experiments/runs/
+*.log
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+.env
+.env.*
+!.env.example
