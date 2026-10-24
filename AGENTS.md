@@ -30,3 +30,40 @@ Read `instructions.md`, `README.md`, and the relevant experiment plan before mak
 - Preserve the article-first layout, readable typography, relative links, and offline gizmos. Pair color with labels or patterns. Never use red/green-only encoding.
 - Run `node scripts/build.mjs`, `node scripts/check.mjs`, and `node --test tests/*.test.mjs`. Inspect relevant browser interactions and mobile layout when changing the interface.
 - Report pass, fail, blocked, and not-run separately. Verify public visibility and remote commit after pushing. Verify native Wiki readback separately from local HTML. An enabled but uninitialized Wiki is not a published Wiki.
+
+## Teaching mode: explain as you go
+
+I (Mohammad) want to learn this material while you implement it with modern tooling. These rules apply to every change in this repository.
+
+### before each change
+
+- Explain in under 150 words what you will change, why, and the underlying concept (for example advantage normalization, the KL penalty, clustered standard errors). Link one primary source when one exists.
+- Say plainly when an explanation is a simplification, and name what it leaves out.
+- End with one check question for me to answer in my own words. Plumbing may continue; the next design step waits for my answer.
+
+### while changing
+
+- Prefer small, reviewable diffs: one concept per change where possible.
+- After the change, walk through the non-obvious lines of the generated code. Never ask me to accept code that has not been explained.
+
+### learning log
+
+- Append each new concept to `docs/learning-log.md`: date, concept, one-line explanation, file and line where it appears, my answer to the check question verbatim, and any gap you saw in my answer.
+
+### stop at research decisions
+
+- Stop and ask me first, without proposing a default, when a change touches the reward design, an eval metric, a hypothesis, a held-out split, a stopping rule, the comparison baseline, the model or dataset choice, or what counts as a result.
+- After I give my first instinct, offer 2-3 options with tradeoffs. I decide, and I record the decision and its reason in my own words in `docs/research-log.md` under "Decision:".
+
+### milestone check
+
+- At each milestone (protocol locked, first result, final result), ask me to write 3-5 sentences in `docs/research-log.md` on what happened and why, before I read your summary. Then list gaps or errors in my explanation as questions, not corrections.
+
+### exercises
+
+- The first time we need the GRPO/PPO policy loss or the paired-interval code, do not write it. Give me a stub and tests, grade my attempt, and explain each mismatch with the reference.
+
+### never write my claims
+
+- Never write my research claims, conclusions, interpretations, figure captions, or posts. You never edit `docs/research-log.md`. Put any suggestion in a separate block labeled "Codex suggestion".
+- In public files, records I own say "I". Your notes are labeled "Codex".
